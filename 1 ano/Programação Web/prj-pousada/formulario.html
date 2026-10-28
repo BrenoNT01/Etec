@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Pousada</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header>
+    <nav id="menu">
+        <a href="#inicio" class="logo">Bahama Royale</a>
+        <button class="menu-mobile" id="botao-menu">☰</button>
+
+        <ul id="lista-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="acomodacoes.html">Nossas Acomodações</a></li>
+            <li><a href="atracoes.html">Principais Atrações</a></li>
+            <li><a href="formulario.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body class="formulario">
+
+      <div class="container">
+        <h1 class="tituloform">Faça sua reserva</h1>
+        <p class="textoform">Preencha seus dados para entrar em contato com a pousada.</p>
+
+        <form>
+
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+
+            <label for="entrada">Data de entrada:</label>
+            <input type="date" id="entrada" name="entrada">
+
+            <label for="saida">Data de saída:</label>
+            <input type="date" id="saida" name="saida">
+
+            <label for="pessoas">Quantidade de pessoas:</label>
+            <input type="number" id="pessoas" name="pessoas" min="1" max="10">
+
+            <label for="mensagem">Observações:</label>
+            <textarea id="mensagem" name="mensagem" 
+                placeholder="Digite alguma observação..."></textarea>
+
+            <button class="botaoform" type="submit">Enviar reserva</button>
+
+        </form>
+    </div>
+
+    <footer id="contato">
+
+    <div class="footer-principal">
+
+        <div class="footer-marca">
+            <h2>Bahama <span>Royale</span></h2>
+
+            <p>
+                Seu refúgio particular no coração das Bahamas.
+                Conforto, tranquilidade e experiências inesquecíveis.
+            </p>
+
+            <a href="formulario.html" class="botao-reserva">
+                Faça sua reserva
+            </a>
+        </div>
+
+        <div class="footer-coluna">
+            <h3>Explore</h3>
+
+            <a href="index.html">Início</a>
+            <a href="acomodacoes.html">Acomodações</a>
+            <a href="atracoes.html">Atrações</a>
+            <a href="formulario.html">Fale Conosco</a>
+        </div>
+
+        <div class="footer-coluna">
+            <h3>Contato</h3>
+
+            <p>📍 Nassau, Bahamas</p>
+            <p>📞 +1 (242) 555-XXXX</p>
+            <p>✉️ contato@bahamaroyale.com</p>
+            <p>🕐 Todos os dias, 08:00 às 22:00</p>
+        </div>
+
+        <div class="footer-coluna">
+            <h3>Siga-nos</h3>
+
+            <p>
+                Acompanhe nossas novidades
+                e descubra o paraíso.
+            </p>
+
+            <div class="redes-sociais">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">WhatsApp</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-final">
+
+        <p>
+            &copy; 2026 Bahama Royale. Todos os direitos reservados.
+        </p>
+
+        <p>
+            Nassau, Bahamas
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
